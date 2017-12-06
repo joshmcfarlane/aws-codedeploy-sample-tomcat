@@ -12,6 +12,7 @@ TOMCAT7_CORE_DOWNLOAD_URL="http://mirror.olnevhost.net/pub/apache/tomcat/tomcat-
 # The top-level directory after unpacking the tar file
 TOMCAT7_CORE_UNPACKED_DIRNAME="apache-tomcat-$TOMCAT_VERSION"
 
+sleep 100
 
 # Check whether there exists a valid instance
 # of Tomcat7 installed at the specified directory
